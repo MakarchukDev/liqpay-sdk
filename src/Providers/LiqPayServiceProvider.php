@@ -19,7 +19,7 @@ class LiqPayServiceProvider extends ServiceProvider
 
         // Регистрация конфигурации
         $this->mergeConfigFrom(
-            __DIR__.'/../../../config/liqpay.php', 'liqpay'
+            __DIR__.'/../../config/liqpay.php', 'liqpay'
         );
     }
 
@@ -27,7 +27,7 @@ class LiqPayServiceProvider extends ServiceProvider
     {
         // Публикация конфигурации
         $this->publishes([
-            __DIR__.'/../../../config/liqpay.php' => config_path('liqpay.php'),
+            __DIR__.'/../../config/liqpay.php' => config_path('liqpay.php'),
         ], 'config');
     }
 }
