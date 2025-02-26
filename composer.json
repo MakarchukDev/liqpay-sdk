@@ -8,7 +8,17 @@
     },
     "autoload": {
         "psr-4": {
-            "Barry\\LiqpaySdk\\": "src/"
+            "Makarchukdev\\LiqpaySdk\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Makarchukdev\\LiqpaySdk\\Providers\\LiqPayServiceProvider"
+            ],
+            "aliases": {
+                "LiqPay": "Makarchukdev\\LiqpaySdk\\Facades\\LiqPayFacade"
+            }
         }
     },
     "authors": [
