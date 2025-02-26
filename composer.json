@@ -1,0 +1,18 @@
+{
+    "name": "barry/liqpay-sdk",
+    "description": "SDK for LiqPay integration",
+    "type": "library",
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Barry\\LiqpaySdk\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "liqpay"
+        }
+    ]
+}
