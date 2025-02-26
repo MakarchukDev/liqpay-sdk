@@ -28,7 +28,7 @@ require 'vendor/autoload.php';
 ```php
 'providers' => [
     // інші провайдери...
-    Makarchukdev\LiqpaySdk\LiqpayServiceProvider::class,
+    Makarchukdev\LiqpaySdk\Providers\LiqpayServiceProvider::class,
 ],
 ```
 
@@ -37,14 +37,14 @@ require 'vendor/autoload.php';
 ```php
 'aliases' => [
     // інші фасади...
-    'LiqPay' => Makarchukdev\LiqpaySdk\Facades\LiqPay::class,
+    'LiqPay' => Makarchukdev\LiqpaySdk\Facades\LiqPayFacade::class,
 ],
 ```
 
 Публікуйте конфігурацію за допомогою команди Artisan:
 
 ```bash
-php artisan vendor:publish --provider="Makarchukdev\LiqpaySdk\LiqpayServiceProvider"
+php artisan vendor:publish --provider="Makarchukdev\LiqpaySdk\Providers\LiqpayServiceProvider"
 ```
 
 Налаштуйте ключі в файлі `.env`:
