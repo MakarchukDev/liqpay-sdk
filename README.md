@@ -15,7 +15,7 @@ You can install the library using [Composer](https://getcomposer.org/), which is
    Clone the repository or add it as a dependency in your project:
 
    ```bash
-   composer require barry/liqpay-sdk
+   composer require makarchukdev/liqpay-sdk
    ```
 
 2. Після успішного встановлення бібліотеки підключіть автозавантажувач Composer у вашому проекті:  
@@ -32,8 +32,8 @@ You can install the library using [Composer](https://getcomposer.org/), which is
 Для початку роботи з Liqpay SDK, створіть об'єкт класу `LiqPay`:  
 To start using Liqpay SDK, create an object of the `LiqPay` class:
 
-```php
-use Barry\LiqpaySdk\LiqPay;
+```php 
+use Makarchukdev\LiqpaySdk\LiqPay;
 
 $public_key = 'your_public_key';
 $private_key = 'your_private_key';

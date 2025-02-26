@@ -1,5 +1,5 @@
 {
-    "name": "barry/liqpay-sdk",
+    "name": "makarchukdev/liqpay-sdk",
     "version": "1.0.0",
     "description": "SDK for LiqPay integration",
     "type": "library",
